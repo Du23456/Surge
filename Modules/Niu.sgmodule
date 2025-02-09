@@ -1,0 +1,8 @@
+#!name = 小牛电动
+#!desc = 小牛电动去广告
+
+[Map Local]
+^https?:\/\/app-api\.niu\.com\/v\d\/advertisement data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% app-api.niu.com
