@@ -1,7 +1,6 @@
 #!name = Twitter
 #!desc = Twitter去广告
 
-[Rule]
 analytics.twitter.com
 .ads-twitter.com
 .p.twitter.com
