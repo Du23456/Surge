@@ -1,5 +1,7 @@
 #!name = 中国电信
 #!desc = 中国电信去广告
+#!author = zirawell
+#!date = 2025-2-10 02:49
 
 [Rule]
 DOMAIN,ad.21cn.com,REJECT,extended-matching,pre-matching
