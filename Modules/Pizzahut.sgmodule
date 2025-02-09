@@ -1,5 +1,5 @@
-#!name=必胜客
-#!desc=必胜客去广告
+#!name=必胜客(App+小程序)
+#!desc=必胜客App、微信小程序去广告
 #!author=fmz200
 #!date=2024-7-29 10:00
 
@@ -8,6 +8,8 @@
 
 [Map Local]
 ^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/member\/app\/member data-type=text data=" " status-code=200
+# 微信小程序去广告
+^https:\/\/res\.pizzahut\.com\.cn\/CRM data-type=text data="{}" status-code=200
 
 [MITM]
 hostname = %APPEND% res.pizzahut.com.cn
