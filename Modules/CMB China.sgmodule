@@ -11,4 +11,4 @@
 ^https:\/\/mbmodule-openapi\.paas\.cmbchina\.com\/graphic\/v2\/module\/graphic data-type=text data="{}" status-code=200
 
 [MITM]
-hostname = webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com
+hostname = %APPEND% webappcfg.paas.cmbchina.com, mbmodule-openapi.paas.cmbchina.com
