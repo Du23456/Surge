@@ -1,5 +1,7 @@
 #!name= 美团类
 #!desc= 美团 & 美团外卖 & 美团众包 去广告
+#!author = fmz200,QingRex
+#!date = 2025-2-10 02:43
 
 [Rule]
 DOMAIN,maplocatesdksnapshot.d.meituan.net,REJECT,extended-matching,pre-matching
