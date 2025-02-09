@@ -1,7 +1,7 @@
 #!name = 中国移动
 #!desc = 中国移动去广告
-#!author = fmz200,QingRex
-#!date = 2025-2-10 02:47
+#!author = fmz200,QingRex,zirawell
+#!date = 2025-2-10 02:48
 
 [Rule]
 IP-CIDR,120.240.95.37/32,REJECT,no-resolve
