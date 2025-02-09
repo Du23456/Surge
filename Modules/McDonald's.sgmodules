@@ -1,0 +1,11 @@
+#!name = 麦当劳（App+小程序）
+#!desc = 麦当劳App、微信小程序去广告
+
+[Map Local]
+# 开屏广告 首页弹窗
+^https:\/\/api\.mcd\.cn\/bff\/portal\/(home\/splash|richpop) data-type=text data="{}" status-code=200
+# 主页
+^https:\/\/api\.mcd\.cn\/bff\/portal\/home\/hotActivity data-type=text data="{}" status-code=200
+
+[MITM]
+hostname = api.mcd.cn
