@@ -1,0 +1,11 @@
+#!name = WIFI万能钥匙
+#!desc = WIFI万能钥匙去广告
+#!author = fmz200
+#!date = 2025-2-9 23:28
+
+[Map Local]
+# > 首页弹窗广告
+^http:\/\/cds\.wifi188\.com\/feeds\.sec data-type=text data="{}" status-code=200
+
+[MITM]
+hostname = %APPEND% cds.wifi188.com
