@@ -22,4 +22,4 @@
 ^https:\/\/webchatapp\.fcbox\.com\/fcboxactivityweb\/marketingEntrance\/info$ data-type=text data="{}" status-code=200
 
 [MITM]
-hostname = webchatapp.fcbox.com, dsp.fcbox.com
+hostname = %APPEND% webchatapp.fcbox.com, dsp.fcbox.com
