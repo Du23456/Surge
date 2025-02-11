@@ -18,4 +18,4 @@
 ^https:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent data-type=text data="{}" status-code=200
 
 [MITM]
-hostname = m.ctrip.com, ma-adx.ctrip.com, mbd.baidu.com
+hostname = %APPEND% m.ctrip.com, ma-adx.ctrip.com, mbd.baidu.com
