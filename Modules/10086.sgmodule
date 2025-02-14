@@ -1,18 +1,18 @@
 #!name = 中国移动
 #!desc = 中国移动去广告
 #!author = fmz200,QingRex,zirawell
-#!date = 2025-2-10 02:48
+#!date = 2025-2-14 16:48
 
 [Rule]
 IP-CIDR,120.240.95.37/32,REJECT,no-resolve
 
 [URL Rewrite]
-# 开屏广告
-^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) - reject
-^https?:\/\/tower\.ubixioe\.com\/mob\/mediation - reject
-^https?:\/\/sdk1xyajs\.data\.kuiniuca\.com - reject
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList - reject
 # 多个悬浮窗 @fmz200
 ^https?:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket - reject
 
+[Map Local]
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit data-type=text data=" " status-code=200
+
 [MITM]
-hostname = %APPEND% client.app.coc.10086.cn, tower.ubixioe.com, sdk1xyajs.data.kuiniuca.com, h.app.coc.10086.cn, app.10086.cn
+hostname = %APPEND% client.app.coc.10086.cn, h.app.coc.10086.cn, app.10086.cn
