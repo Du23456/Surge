@@ -1,7 +1,10 @@
 #!name = 麦当劳（App+小程序）
 #!desc = 麦当劳App、微信小程序去广告
-#!author = fmz200
+#!author = Du23456,fmz200
 #!date = 2023-7-9 18:26
+
+[Rule]
+URL-REGEX,^https:\/\/img\.mcd\.cn\/gallery\/.*\.png$,REJECT
 
 [Map Local]
 # 开屏广告 首页弹窗
