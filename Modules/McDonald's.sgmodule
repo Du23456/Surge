@@ -1,9 +1,10 @@
 #!name = 麦当劳（App+小程序）
 #!desc = 麦当劳App、微信小程序去广告
 #!author = Du23456,fmz200
-#!date = 2023-7-9 18:26
+#!date = 2025-2-27 18:59
 
 [Rule]
+# 去除App提示升级弹窗
 URL-REGEX,^https:\/\/img\.mcd\.cn\/gallery\/.*\.png$,REJECT
 
 [Map Local]
