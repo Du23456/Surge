@@ -1,0 +1,22 @@
+#!name = Apple
+#!desc = Apple去广告
+#!author = fmz200,cc63,froggeric
+#!date = 2025-3-10 21:53
+
+advertising.apple.com
+api-adservices.apple.com
+banners.itunes.apple.com
+iad.apple.com
+iadcontent.apple.com
+iadctest.qwapi.com
+iadmoo.apple.com
+iadworkbench.apple.com
+launch.apple.com
+metrics.apple.com
+qwapi.apple.com
+securemetrics.apple.com
+webproxy-advp.iad-apple.com
+webproxy-advp.iad-apple.com.akadns.net
+apple.comscoreresearch.com
+.advp.apple.com
+.iadsdk.apple.com
