@@ -1,0 +1,7 @@
+#!name = 抖音
+#!desc = 抖音去广告
+#!author = fmz200
+#!date = 2025-8-2 22:44
+
+DOMAIN-KEYWORD,bds.snssdk.com
+DOMAIN-KEYWORD,p3.pstatp.com
