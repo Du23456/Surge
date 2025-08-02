@@ -1,7 +1,7 @@
 #!name = Apple
 #!desc = Apple去广告
 #!author = fmz200,cc63,froggeric
-#!date = 2025-3-10 21:53
+#!date = 2025-8-2 22:57
 
 advertising.apple.com
 api-adservices.apple.com
@@ -20,3 +20,13 @@ webproxy-advp.iad-apple.com.akadns.net
 apple.comscoreresearch.com
 .advp.apple.com
 .iadsdk.apple.com
+# 安全浏览限制解除
+lookup.api.bsb.baidu.com
+proxy.safebrowsing.apple
+safebrowsing.g.applimg.com
+safebrowsing.googleapis.com
+safebrowsing.urlsec.qq.com
+token.safebrowsing.apple
+vs6.bj2ct.u3.ucweb.com
+.safebrowsing.apple
+.u3.ucweb.com
