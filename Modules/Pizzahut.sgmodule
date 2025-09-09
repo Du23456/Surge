@@ -1,14 +1,9 @@
-#!name=必胜客(App+小程序)
-#!desc=必胜客App、微信小程序去广告
+#!name=必胜客(小程序)
+#!desc=必胜客微信小程序去广告
 #!author=fmz200
 #!date=2024-7-29 10:00
 
-[URL Rewrite]
-^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/apphome\/apphome - reject
-
 [Map Local]
-^https?:\/\/res\.pizzahut\.com\.cn\/CRM\/phad\/member\/app\/member data-type=text data=" " status-code=200
-# 微信小程序去广告
 ^https:\/\/res\.pizzahut\.com\.cn\/CRM data-type=text data="{}" status-code=200
 
 [MITM]
