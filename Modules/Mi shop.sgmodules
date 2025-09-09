@@ -1,17 +1,9 @@
-#!name = 小米商城类
-#!desc = 小米有品、小米商城去广告
+#!name = 小米商城
+#!desc = 小米商城去广告
 #!author = zirawell
-#!date = 2025-3-14 03:45
-
-[Rule]
-# > 小米有品 - MIYOUPIN
-DOMAIN,stat.youpin.mi.com,REJECT,extended-matching,pre-matching
+#!date = 2025-9-9 23:45
 
 [Map Local]
-# > 小米有品 - MIYOUPIN
-^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig data-type=text data=" " status-code=200
-
-# > 小米商城 - MISHOP
 ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start data-type=text data=" " status-code=200
 ^https?:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/(rec\/merge\/|skywheel\/mishop\/splash) data-type=text data="{}" status-code=200
 # 搜索框,热词,卡片
@@ -25,4 +17,4 @@ DOMAIN,stat.youpin.mi.com,REJECT,extended-matching,pre-matching
 小米商城开屏广告 = type=http-response, pattern=^https?:\/\/api\.m\.mi\.com\/v\d\/order\/expressView, script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mishop.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% shopapi.io.mi.com, api.m.mi.com, shop-api.retail.mi.com
+hostname = %APPEND% api.m.mi.com, shop-api.retail.mi.com
