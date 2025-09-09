@@ -1,57 +1,25 @@
 #!name = 广告联盟
 #!desc = 通用去广告
-#!author = RuCu6,fmz200
-#!date = 2025-3-10 22:58
+#!author = fmz200
+#!date = 2025-9-9 15:58
 
-DOMAIN,ad.zijieapi.com
-DOMAIN,adapi.izuiyou.com
-DOMAIN,adtracker.adfunlink.com
-DOMAIN,dig.bdurl.net
-DOMAIN,dsp-x.jd.com
-DOMAIN,et.tanx.com
-DOMAIN,gdfp.gifshow.com
-DOMAIN,init.supersonicads.com
-DOMAIN,is.snssdk.com
-DOMAIN,janapi.jd.com
-DOMAIN,lf-ad-ies.bytecdn.cn
-DOMAIN,mercury-gateway.ixiaochuan.cn
-DOMAIN,open.e.kuaishou.com
-DOMAIN,open.kuaishou.com
-DOMAIN,pagead2.googlesyndication-cn.com
-DOMAIN,pagead2.googlesyndication.com
-DOMAIN,sdk.e.qq.com
-DOMAIN,tangram.e.qq.com
-DOMAIN,ws.tapjoyads.com
-DOMAIN,www.googleadservices.com
-DOMAIN,xlog.jd.com
-DOMAIN-SUFFIX,ads.linkedin.com
-DOMAIN-SUFFIX,ads.vungle.com
-DOMAIN-SUFFIX,adservice.google.com
-DOMAIN-SUFFIX,adukwai.com
-DOMAIN-SUFFIX,applovin.com
-DOMAIN-SUFFIX,applvn.com
-DOMAIN-SUFFIX,appsflyer.com
-DOMAIN-SUFFIX,appsflyersdk.com
-DOMAIN-SUFFIX,kuaishouzt.com
-DOMAIN-SUFFIX,miaozhen.com
-DOMAIN-SUFFIX,ubixioe.com
-DOMAIN-SUFFIX,unityads.unity3d.com
-DOMAIN-SUFFIX,v.smtcdns.com
-DOMAIN-SUFFIX,zijieapi.com
-DOMAIN-SUFFIX, getui.com
-DOMAIN-SUFFIX, getui.net
-DOMAIN-SUFFIX, gepush.com
-DOMAIN-SUFFIX, igexin.com
-DOMAIN-SUFFIX, log.aliyuncs.com
-DOMAIN-SUFFIX, zlsdk.1rtb.net
-DOMAIN-KEYWORD,-ad-sign.byteimg.com
-DOMAIN-KEYWORD,ads.g.doubleclick
-DOMAIN-KEYWORD,asiad.byteactivity
-DOMAIN-KEYWORD,pangolin-sdk-toutiao
-DOMAIN-KEYWORD,pangolin.snssdk.com
-DOMAIN-KEYWORD,pglstatp-toutiao
-DOMAIN-KEYWORD,video-cn.snssdk.com
-DOMAIN-KEYWORD, -tos.pstatp.com
-# > 收集用户隐私联盟，若有问题自行设置白名单
-DOMAIN-KEYWORD, volc
-DOMAIN-KEYWORD, umeng
+DOMAIN-SUFFIX,miaozhen.com,REJECT
+DOMAIN-KEYWORD,-ad-sign.byteimg.com,REJECT
+DOMAIN-KEYWORD,-tos.pstatp.com,REJECT
+DOMAIN-KEYWORD,asiad.byteactivity,REJECT
+DOMAIN-KEYWORD,pangolin-sdk-toutiao,REJECT
+DOMAIN-KEYWORD,pglstatp-toutiao,REJECT
+DOMAIN-KEYWORD,pangolin.snssdk.com,REJECT
+DOMAIN-KEYWORD,video-cn.snssdk.com,REJECT
+DOMAIN-SUFFIX,getui.com,REJECT
+DOMAIN-SUFFIX,getui.net,REJECT
+DOMAIN-SUFFIX,gepush.com,REJECT
+DOMAIN-SUFFIX,igexin.com,REJECT
+DOMAIN-SUFFIX,log.aliyuncs.com,REJECT
+DOMAIN-SUFFIX,zlsdk.1rtb.net,REJECT
+DOMAIN-SUFFIX,ott.cibntv.net,REJECT
+DOMAIN-SUFFIX,cdntips.net,REJECT
+DOMAIN-SUFFIX,tfogc.com,REJECT
+DOMAIN-SUFFIX,file.myqcloud.com,REJECT
+DOMAIN-KEYWORD,volc,REJECT
+DOMAIN-KEYWORD,umeng,REJECT
