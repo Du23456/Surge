@@ -3,6 +3,7 @@
 #!author = fmz200
 #!date = 2024-7-28 23:00
 
+[Map Local]
 # 微信小程序去广告
 ^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/coupon data-type=text data="{}" status-code=200
 ^https:\/\/dynamicad\.kfc\.com\.cn\/api data-type=text data="{}" status-code=200
