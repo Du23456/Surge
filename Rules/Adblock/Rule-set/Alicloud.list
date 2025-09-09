@@ -1,6 +1,0 @@
-#!name = 阿里云
-#!desc = 阿里云去广告
-#!author = fmz200
-#!date = 2025-8-2 22:44
-
-IP-CIDR,203.107.1.1/24,no-resolve
