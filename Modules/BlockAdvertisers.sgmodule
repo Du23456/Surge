@@ -260,7 +260,7 @@ DOMAIN,app-analytics-services.com,REJECT,extended-matching,pre-matching
 DOMAIN,odm.app-ads-services.com,REJECT,extended-matching,pre-matching
 #DOMAIN,firebaselogging-pa.googleapis.com,REJECT,extended-matching,pre-matching
 DOMAIN,firebaseinappmessaging.googleapis.com,REJECT,extended-matching,pre-matching
-DOMAIN,firebaseremoteconfig.googleapis.com,REJECT,extended-matching,pre-matching
+#DOMAIN,firebaseremoteconfig.googleapis.com,REJECT,extended-matching,pre-matching
 DOMAIN,fundingchoicesmessages.google.com,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,doubleclick-cn.net,REJECT,extended-matching,pre-matching
 DOMAIN-SUFFIX,googlesyndication-cn.com,REJECT,extended-matching,pre-matching
