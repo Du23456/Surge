@@ -1,7 +1,7 @@
 #!name = 广告联盟
 #!desc = 通用去广告
 #!author = fmz200
-#!date = 2025-9-9 15:58
+#!date = 2026-1-15 23:55
 
 DOMAIN-SUFFIX,miaozhen.com,REJECT
 DOMAIN-KEYWORD,-ad-sign.byteimg.com,REJECT
@@ -17,9 +17,8 @@ DOMAIN-SUFFIX,gepush.com,REJECT
 DOMAIN-SUFFIX,igexin.com,REJECT
 DOMAIN-SUFFIX,log.aliyuncs.com,REJECT
 DOMAIN-SUFFIX,zlsdk.1rtb.net,REJECT
-DOMAIN-SUFFIX,ott.cibntv.net,REJECT
 DOMAIN-SUFFIX,cdntips.net,REJECT
 DOMAIN-SUFFIX,tfogc.com,REJECT
-DOMAIN-SUFFIX,file.myqcloud.com,REJECT
 DOMAIN-KEYWORD,volc,REJECT
+AND,((NOT,((DOMAIN,volcengine-kdocs-cache.wpscdn.cn))), (NOT,((DOMAIN,vod-settings.volcvod.com))), (NOT,((DOMAIN,volcengine-kdocs-cache.wpscdn.cn))), (OR,((DOMAIN-KEYWORD,volc))))
 DOMAIN-KEYWORD,umeng,REJECT
